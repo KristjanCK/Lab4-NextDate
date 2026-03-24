@@ -107,7 +107,7 @@ public class NextDateGTv1 {
 	public void testCreatesNextDate7() throws Throwable {
 	    NextDate nextDate0 = new NextDate(7, 7, 7);
 	    String string0 = nextDate0.run(7, 7, 1930);
-	    assertEquals("7/7/1930", string0);
+	    assertEquals("7/8/1930", string0);
 	}
 
 	@Test(timeout = 4000)
